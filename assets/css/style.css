@@ -15,10 +15,8 @@ body {
 }
 
 .header{
-
-    
     padding: 20px 10px;
-    background: #78a84b;
+    background: transparent;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,3 +33,18 @@ body {
     font-weight: 600;
 
 }
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
