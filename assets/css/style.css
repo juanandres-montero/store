@@ -146,6 +146,7 @@ body {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
+    margin-inline: 15px;
 }
 
 .btn-box a:hover {
@@ -227,6 +228,134 @@ body {
     width: 100%;
 
 }
+/*LATEST PRODUCT*/
+.latest-product {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.latest-product-content{
+    position: relative;
+    max-width: 600px;
+    left: 5%;
+}
+.latest-product-image {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+    
+.latest-product-content h1 {
+    position: relative;
+    line-height: 1.2;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-transform: uppercase;
+    width: 100%;
+    /**/
+
+}
+.latest-product-content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 5px 0 5px;
+}
+
+.latest-product-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 5px 0 5px;
+}
+
+.latest-product-content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0 40px;
+}
+
+/*MATERIAL*/
+
+.material {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-content {
+    align-items: center;
+    position: relative;
+    height: 800px;
+    width: 900px;
+}
+
+.material-content h1 {
+    position: relative;
+    line-height: 1.2;
+    font-size: 56px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    width: 100%;
+    /**/
+
+}
+
+.material-content h2 {
+
+    font-size: 36px;
+    font-weight: 500;
+    margin: 5px 0 5px;
+    text-align: center;
+}
+
+.material-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 5px 0 5px;
+}
+
+.material-content p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0 40px;
+}
+
+.block-list {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 900px;
+
+}
+
+.block-list-image {
+
+    overflow: hidden;
+    border-radius: 25%;
+    width: 250px;
+    height: 250px;
+}
+
+.block-list-title {
+    display: flex;
+    color:#ededed;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px 0 5px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
 /* KEYFRAMES ANIMATION*/
 @keyframes showRight {
     100% {
