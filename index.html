@@ -14,7 +14,7 @@
 
         <nav class="navbar">
             <a href="#" class="active">Home</a>
-            <a href="#">Más reciente</a>
+            <a href="#latest">Más reciente</a>
             <a href="#">STATA</a>
             <a href="#">Contacto</a>
             <a href="#">Ingresar</a>
@@ -25,10 +25,10 @@
     <section class="home">
         <div class="home-content">
             <h1>Juan Andrés Store</h1>
-            <p>If you're looking to learn applied time series analysis and forecasting, this is the place for you. I have a wealth of material from my youtube videos available here on the website, ready for you to use. With files in both EViews and Stata format, you can learn at your own pace and apply what you've learned using the software of your choice. Mastering these skills will give you a serious competitive edge in the job market, so why wait? Start learning today!</p>
+            <p>Si estás interesado en aprender análisis y pronóstico de series temporales aplicadas, este es el lugar indicado para ti. Tengo una gran cantidad de material de mis videos de YouTube disponible aquí en el sitio web, listo para que lo utilices. Con archivos en formato tanto de Python como de Stata, puedes aprender a tu propio ritmo y aplicar lo que has aprendido utilizando el software que prefieras. Dominar estas habilidades te dará una ventaja competitiva seria en el mercado laboral, ¿entonces por qué esperar? ¡Comienza a aprender hoy mismo!</p>
             <div class="btn-box">
-                <a href="#" class="btn">Learn More</a>
-                <a href="#" class="btn">Get Started</a>
+                <a href="#" class="btn">Saber más</a>
+                <a href="#latest" class="btn">Empezar</a>
                 
             </div>
         </div>
@@ -39,7 +39,7 @@
         </div>
 
     </section>
-    <section class="latest-product">
+    <section class="latest-product" id="latest">
         <div class="latest-product-image">
             <img src="assets/img/DOfile.png" alt="Product Image" width="600" 
      height="600">
@@ -88,5 +88,109 @@
             </div>
         </div>
     </section>
+            <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <!--=======This feature is skipped for now========-->
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contacto</h2>
+            <span class="section__subtitle">Ponte en contacto</span>
+            <div class="contact__information">
+                <i class="uil uil-phone contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">Envía un mensaje</h3>
+                    <span class="contact__subtitle">t.me/JuanAndresMontero</span>
+                </div>
+            </div>
+
+            <div class="contact__information">
+                <i class="uil uil-envelope contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">Email</h3>
+                    <span class="contact__subtitle">juanandres.montero@outlook.com</span>
+                </div>
+            </div>
+
+            <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">Ubicación</h3>
+                    <span class="contact__subtitle">Cartago, Costa Rica</span>
+                </div>
+            </div>
+
+            <form action="https://formsubmit.co/juanandres.montero@outlook.com" method="POST" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Nombre</label>
+                        <input type="text" name="name" class="contact__input" required>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" name="email" class="contact__input" required>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <label for="project-contact" class="contact__label">Proyecto</label>
+                    <input type="text" name="Project" class="contact__input">
+                </div>
+
+                <div class="contact__content">
+                    <label for="message-contact" class="contact__label">Mensaje</label>
+                    <textarea name="message" cols="0" rows="7" id="message-contact" class="contact__input" required></textarea>
+                </div>
+                
+                <div class="btn-box">
+                    <button type="submit" class="btn">
+                        <a class="btn">Enviar</a>
+                    </button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h2 class="footer__title">Juan Andrés</h2>
+                    <span class="footer__subtitle">Economist</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#latest" class="footer__link">Más reciente</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://twitter.com/montero_juan_" class="footer__social" target="_blank"  class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/montero_juanandres" target="_blank" class="footer__social" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Juan Andrés Montero Zúñiga. all rights reserved.</p>
+        </div>
+
+    </footer>
 </body>
 </html>
